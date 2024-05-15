@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "noImplicitAny": true,
+      "module": "ESNext",
+      "target": "ES6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/**/*"]
+  }

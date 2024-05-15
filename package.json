@@ -1,0 +1,18 @@
+{
+  "name": "ts_chrome_ext_header_shower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && copyfiles manifest.json icons/* popup.html dist",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.4.5"
+  }
+}
